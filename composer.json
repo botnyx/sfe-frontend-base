@@ -22,5 +22,8 @@
         "psr-4": {
             "Botnyx\\Sfe-frontend-base\\": "src/"
         }
-    }
+    },
+    "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
 }
