@@ -20,7 +20,7 @@ if( !file_exists( "../configuration.ini" ) ){ die('<!DOCTYPE html>
 /* Composer autoloader */
 require $_ini['paths']['root'] .'/vendor/autoload.php';
 /* Include the shared core, which adds the deps, middleware and routes to the app. */
-require_once($_ini['paths']['root']."/vendor/botnyx/sfe-shared-core/src/includes/dependencies.php");
+#require_once($_ini['paths']['root']."/vendor/botnyx/sfe-shared-core/src/includes/dependencies.php");
 /* Create the Sfe instance with settings. */
 $sfe = new Botnyx\Sfe\Shared\Application($_ini);
 /* Enable errors on screen */
